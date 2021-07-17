@@ -1,0 +1,6 @@
+const router = require('../routes/carts');
+const Repository = require('./repository');
+
+class CartsRepository extends Repository {}
+
+module.exports = new CartsRepository('carts.json');
